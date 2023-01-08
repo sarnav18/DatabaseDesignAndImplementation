@@ -24,6 +24,8 @@ We ran the database through the 3 stages of normalization –
 # Recommendation
 
 Recommendations and Conclusion:
+
 •	The firm being a new one there needs to be an initialization of database so that process can be streamlined as and when new products are launched, and new clients are acquired.
+
 •	Having a Snowflake Schema for the Fact and Dimensional model will be suggested in this case for better data retrieval and query purposes
 
