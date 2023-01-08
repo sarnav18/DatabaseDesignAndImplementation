@@ -8,9 +8,13 @@ Data management allows organizations to effectively scale data and usage occasio
 # Methodology
 
 In the original database given by Rare, there were 2 master tables with ~10 columns each. Our team concluded that this database model could be made more efficient with the help of normalization because of the following redundancies that we observed.
+
 •	Insertion Anomaly: We couldn’t enter client information as a prospect if they did not place an order
+
 •	Deletion Anomaly: Deleting some order details would delete information about propertly too
+
 •	Updating Anomaly: Modification in the name of Frontier Management would cause changes in multiple rows
+
 It is important that a database is normalized to minimize redundancy and to ensure only related data is stored in each table. It also prevents any issues that stem from the above anomalies.
 
 We ran the database through the 3 stages of normalization – 
