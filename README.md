@@ -20,3 +20,10 @@ We ran the database through the 3 stages of normalization –
 •	Second Normal Form (2NF): Only data related to the respective primary key was stored in each table. The 1NF table was decomposed into Item information and Order_Item Information Tables.
 
 •	Third Normal Form (3NF):  We analyzed the 2NF tables and we found out that Transitive dependency existed between OrderID and ShipmentID and concluded that the table had to be further decomposed into 3NF form where the Order Shipment table and Shipment Information table was created. Thus we ensured that there are no in table dependencies between coloumns in each table.
+
+# Recommendation
+
+Recommendations and Conclusion:
+•	The firm being a new one there needs to be an initialization of database so that process can be streamlined as and when new products are launched, and new clients are acquired.
+•	Having a Snowflake Schema for the Fact and Dimensional model will be suggested in this case for better data retrieval and query purposes
+
