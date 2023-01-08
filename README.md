@@ -14,6 +14,9 @@ In the original database given by Rare, there were 2 master tables with ~10 colu
 It is important that a database is normalized to minimize redundancy and to ensure only related data is stored in each table. It also prevents any issues that stem from the above anomalies.
 
 We ran the database through the 3 stages of normalization – 
+
 •	First Normal Form (1NF): The data was stored in tables with rows uniquely identified by primary key and data within each table was in its most reduced form, only the table “Employees” had multivalued attribute (Employee Phone Number).
+
 •	Second Normal Form (2NF): Only data related to the respective primary key was stored in each table. The 1NF table was decomposed into Item information and Order_Item Information Tables.
+
 •	Third Normal Form (3NF):  We analyzed the 2NF tables and we found out that Transitive dependency existed between OrderID and ShipmentID and concluded that the table had to be further decomposed into 3NF form where the Order Shipment table and Shipment Information table was created. Thus we ensured that there are no in table dependencies between coloumns in each table.
