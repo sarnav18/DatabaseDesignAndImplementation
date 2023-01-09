@@ -1,7 +1,7 @@
--- Create Database RareNutrition
-CREATE DATABASE RareNutrition;
+-- Create Database clientData
+CREATE DATABASE clientData;
 -- Use Database
-USE RareNutrition;
+USE clientData;
 -- Check the number of rows in database to check if all records
 -- have been imported from .csv files
 SELECT COUNT(1) FROM client;
