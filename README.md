@@ -1,13 +1,13 @@
 # Database Design and Implementation
 
-Built on the foundation of healthcare and senior living, Rare is posed as a staple product line across the United States and beyond. This is an organization on the rise and since they’ve scaled their operations up in the recent past, the number of entities and the complexity of their relationships have increased. Whenever an organization decides to scale up, they should be more observant in the way they manage their databases. 
+Built on the foundation of healthcare and senior living, the organization has a staple product line across the United States and beyond. The is an organization on the rise and since they’ve scaled their operations up in the recent past, the number of entities and the complexity of their relationships have increased. Whenever an organization decides to scale up, they should be more observant in the way they manage their databases. 
 Data management helps minimize potential errors by establishing processes and policies for usage and building trust in the data being used to make decisions across your organization. With reliable, up-to-date data, companies can respond more efficiently to market changes and customer needs. Currently the organization manages data using excel sheets, but wants to migrate to databases as they have the advantage to handle large volumes of data. 
 
 Data management allows organizations to effectively scale data and usage occasions with repeatable processes to keep data and metadata up to date. When processes are easy to repeat, your organization can avoid the unnecessary costs of duplication, such as employees conducting the same research repeatedly or re-running costly queries unnecessarily.
 
 # Methodology
 
-In the original database given by Rare, there were 2 master tables with ~10 columns each. Our team concluded that this database model could be made more efficient with the help of normalization because of the following redundancies that we observed.
+In the original database given by client, there were 2 master tables with ~10 columns each. Our team concluded that this database model could be made more efficient with the help of normalization because of the following redundancies that we observed.
 
 •	Insertion Anomaly: We couldn’t enter client information as a prospect if they did not place an order
 
